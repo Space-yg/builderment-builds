@@ -1,16 +1,114 @@
-/* Table */
-table {
-    border-collapse: collapse;
-    margin: 10px 0;
+/** Fonts **/
+@font-face {
+    font-family: Oswald;
+    src: url(./fonts/Oswald-Regular.ttf);
 }
-th, td {
-    border: solid black 1px;
+@font-face {
+    font-family: troika;
+    src: url(./fonts/troika.otf);
 }
 
-/* Images */
+/** Organization **/
+body {
+    /* Position */
+    background-color: rgb(230, 230, 230);
+    /* Font */
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+/* p */
+p {
+    /* Position */
+    margin: 5px 0;
+}
+a {
+    color: black;
+}
+/* hs */
+h1 {
+    /* Position */
+    margin: 0;
+    /* Font */
+    text-align: center;
+    font-family: troika, Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: gray;
+    text-decoration: underline;
+}
+h3 {
+    /* Position */
+    margin: 0;
+    /* Font */
+    text-align: center;
+    font-family: troika, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+h4 {
+    /* Position */
+    margin: 10px 0;
+    /* Font */
+    text-align: center;
+}
+
+/** Images **/
 img {
-    max-width: 300px;
+    /* Position */
+    max-width: 400px;
+    border-radius: 10px;
 }
 img.blueprint {
+    /* Position */
     width: 25px;
+}
+
+/** divs **/
+div.collection {
+    /* Position */
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 433px;
+    border: black 1px solid;
+    border-radius: 20px;
+    background-color: white;
+}
+div.collection div:first-child {
+    /* Position */
+    margin: 5px 5px 20px 5px;
+}
+div.collection div {
+    /* Position */
+    padding: 10px;
+    margin: 20px 5px;
+    border: black solid 1px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+div.collection div:last-child {
+    /* Position */
+    margin: 20px 5px 5px 5px;
+}
+div.collection div div {
+    /* Position */
+    margin: 5px;
+}
+div.collection div div.blueprint {
+    /* Position */
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+/** footer **/
+footer {
+    /* Font */
+    color: gray;
+    text-align: center;
+}
+footer a {
+    /* Font */
+    color: gray;
 }

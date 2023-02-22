@@ -1,42 +1,63 @@
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="shortcut icon" href="./images/favicon.jpeg" type="image/x-icon">
         <title>Builderment Builds</title>
+
+        <!-- Discord Embed Settings -->
+        <meta content="Builderment Builds" property="og:title" />
+        <meta content="Search through any builds easily here!" property="og:description" />
+        <meta content="https://space-yg.github.io/builderment-builds/" property="og:url" />
+        <meta content="https://space-yg.github.io/builderment-builds/images/favicon.jpeg" property="og:image" />
+        <meta content="#e6e6e6" data-react-helmet="true" name="theme-color" />
     </head>
     <body>
-        <label>Build:</label>
-        <select id="build">
-            <option selected style="display: none;"></option>
-            <optgroup label="Belt Design">
-                <option>Belt Balancer</option>
-                <option>Belt Splitter</option>
-                <option>Overflow Valve</option>
-                <option>Research Lab Balancer</option>
-            </optgroup>
-            <optgroup label="Factory Design">
-                <option>Workshop/Furnace</option>
-                <option>Machine Shop/Forge</option>
-                <option>Industrial Factory</option>
-                <option>Manufacturer</option>
-            </optgroup>
-        </select>
+        <div class="collection">
+            <h1>Builderment Designs</h1>
+            <p>Hello! This is a website where you can find any build you need! Don't see the build you want? Ask on <a href="https://discord.gg/U8SgSsRFKM" target="_blank">The Builderment Vault</a> server!</p>
+            <p>Be sure to thank the people in the <a href="./credits.html">credits</a> for making this website possible!</p>
+            <br>
+            <label>Build:</label>
+            <select id="build">
+                <option selected style="display: none;"></option>
+                <optgroup label="Belt Design">
+                    <option>Belt Balancer</option>
+                    <option>Belt Splitter</option>
+                    <option>Overflow Valve</option>
+                    <option>Research Lab Balancer</option>
+                </optgroup>
+                <optgroup label="Factory Design">
+                    <option>Workshop/Furnace</option>
+                    <option>Machine Shop/Forge</option>
+                    <option>Industrial Factory</option>
+                    <option>Manufacturer</option>
+                </optgroup>
+            </select>
+            
+            <!-- N -->
+            <br class="n"><br class="n">
+            <label class="n">Inputs:</label>
+            <select class="n" id="n"></select>
+            
+            <!-- M -->
+            <br class="m"><br class="m">
+            <label class="m">Outputs:</label>
+            <select class="m" id="m"></select>
 
-        <br><br>
-
-        <!-- N -->
-        <label class="n">N:</label>
-        <select class="n" id="n"></select>
-
-        <br><br>
-
-        <!-- M -->
-        <label class="m">M:</label>
-        <select class="m" id="m"></select>
-
-        <br><br>
+            <!-- Robotic Arm Tier -->
+            <br class="roboticArmTier"><br class="roboticArmTier">
+            <label class="roboticArmTier">Robotic arm tier:</label>
+            <select class="roboticArmTier" id="roboticArmTier"></select>
+        </div>
 
         <!-- Tables -->
-        <div id="tables"></div>
+        <div class="collection" id="tables"></div>
+        <footer>
+            <p>For any inquiries, ask on <a href="https://discord.gg/U8SgSsRFKM" target="_blank">The Builderment Vault</a> discord server :D</p>
+            <a href="./versions.html">V1.0.0</a>
+        </footer>
     </body>
+    <script src="classes.js"></script>
+    <script src="builds.js"></script>
     <script src="index.js"></script>
 </html>
