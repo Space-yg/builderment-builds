@@ -122,6 +122,10 @@ footer a {
         font-size: 2rem;
     }
     /* hs */
+    h1, h2, h3, h4 {
+        /* Font */
+        font-weight: normal;
+    }
     h1 {
         /* Font */
         font-size: 3rem;
