@@ -112,3 +112,69 @@ footer a {
     /* Font */
     color: gray;
 }
+
+/** Mobile **/
+@media (pointer:none), (pointer:coarse) {
+    /** Organization **/
+    /* p */
+    p {
+        /* Font */
+        font-size: 2rem;
+    }
+    /* hs */
+    h1 {
+        /* Font */
+        font-size: 3rem;
+    }
+    h2 {
+        /* Font */
+        font-size: 2.5rem;
+    }
+    h3 {
+        /* Font */
+        font-size: 2.5rem;
+    }
+    h4 {
+        /* Font */
+        font-size: 2rem;
+    }
+    /* Lists */
+    li {
+        /* Font */
+        font-size: 1.5rem;
+    }
+
+    /** Inputs **/
+    select, label {
+        /* Font */
+        font-size: 2rem;
+        color: black;
+    }
+    
+    /** Images **/
+    img {
+        /* Position */
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    img.blueprint {
+        /* Position */
+        width: 50px;
+    }
+
+    /** divs **/
+    div.collection {
+        /* Position */
+        max-width: 100%;
+    }
+
+    /** footer **/
+    footer {
+        /* Font */
+        font-size: 1.5rem;
+    }
+    footer a {
+        /* Font */
+        font-size: 2rem;
+    }
+}
