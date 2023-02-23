@@ -54,8 +54,10 @@ h4 {
 /** Images **/
 img {
     /* Position */
-    max-width: 400px;
+    width: 100%;
     border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 img.blueprint {
     /* Position */
@@ -69,28 +71,24 @@ div.collection {
     padding: 20px;
     max-width: 433px;
     border: black 1px solid;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: white;
 }
-div.collection div:first-child {
-    /* Position */
-    margin: 5px 5px 20px 5px;
-}
+div.collection div:first-child { margin: 5px 5px 20px 5px; }
 div.collection div {
     /* Position */
-    padding: 10px;
+    padding: 15px;
     margin: 20px 5px;
     border: black solid 1px;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.1);
 }
-div.collection div:last-child {
+div.collection div:last-child { margin: 20px 5px 5px 5px; }
+div.collection div div:is(:nth-child(4), :nth-child(6), :nth-child(8)) {
     /* Position */
-    margin: 20px 5px 5px 5px;
-}
-div.collection div div {
-    /* Position */
-    margin: 5px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 15px;
 }
 div.collection div div.blueprint {
     /* Position */
@@ -158,8 +156,7 @@ footer a {
     /** Images **/
     img {
         /* Position */
-        max-width: 100%;
-        border-radius: 10px;
+        border-radius: 23px;
     }
     img.blueprint {
         /* Position */
@@ -170,8 +167,23 @@ footer a {
     div.collection {
         /* Position */
         max-width: 100%;
+        border-radius: 50px;
+        margin: 20px auto;
+        padding: 30px;
     }
-
+    div.collection div:first-child { margin: 15px 15px 30px 15px; }
+    div.collection div {
+        margin: 30px 15px;
+        padding: 15px 30px 30px 30px;
+        border-radius: 40px;
+    }
+    div.collection div:last-child { margin: 30px 15px 15px 15px; }
+    div.collection div div:is(:nth-child(4), :nth-child(6), :nth-child(8)) {
+        border-radius: 22.5px;
+    }
+    div.collection div div.blueprint {
+        margin: 10px;
+    }
     /** footer **/
     footer {
         /* Font */
