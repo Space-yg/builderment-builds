@@ -1,6 +1,6 @@
 // Footer
-const path = (window.location.pathname.split("/").pop() === "index.html" || window.location.pathname.split("/").pop() === "") ? "./pages/versions/versions.html" : "../versions/versions.html";
-const file = await fetch(path);
+const path = (window.location.pathname.split("/").pop() === "") ? "./pages/versions/versions" : "../versions/versions";
+const file = await fetch(path + ".html");
 const text = await file.text();
 const d = document.createElement("div");
 d.innerHTML = `<footer>
