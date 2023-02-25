@@ -239,8 +239,8 @@ new FactorySplitter("Manifold Even", "Workshop/Furnace", 1, Infinity, 5, Infinit
 new FactorySplitter("Manifold Odd", "Workshop/Furnace", 1, Infinity, Infinity, 3, true, null, new Requirements(), "rskn8s", "https://cdn.discordapp.com/attachments/1015688533467480074/1016646419098120212/IMG_3771.png");
 new FactorySplitter("Manifold Odd", "Workshop/Furnace", 1, Infinity, 5, Infinity, true, null, new Requirements(), "8pq40j", "https://cdn.discordapp.com/attachments/1015688533467480074/1016646454690971648/IMG_3872.png");
 // Machine Shop/Forge
-new FactorySplitter("Manifold Even", "Machine Shop/Forge", 1, Infinity, Infinity, 6, false, null, new Requirements(), "y1was8", "https://cdn.discordapp.com/attachments/1015693706835279995/1016648749784776724/IMG_3736.png");
-new FactorySplitter("Manifold Even", "Machine Shop/Forge", 1, Infinity, 13, Infinity, false, null, new Requirements(), "3mpzjk", "https://cdn.discordapp.com/attachments/1015693706835279995/1016648783787995226/IMG_3770.png");
+new FactorySplitter("Manifold Even", "Machine Shop/Forge", 1, Infinity, 11, Infinity, false, null, new Requirements(), "5qcwhd", "https://cdn.discordapp.com/attachments/1015693706835279995/1079035072168083609/IMG_1440.png");
+new FactorySplitter("Manifold Even", "Machine Shop/Forge", 1, Infinity, 13, Infinity, true, null, new Requirements(), "dnwdvd", "https://cdn.discordapp.com/attachments/1015693706835279995/1079034166290694164/IMG_1439.png");
 new FactorySplitter("Manifold Odd", "Machine Shop/Forge", 1, Infinity, Infinity, 7, false, null, new Requirements(), "x7ah94", "https://cdn.discordapp.com/attachments/1015693706835279995/1016648829208109106/IMG_3738.png");
 new FactorySplitter("1:2", "Machine Shop/Forge", 1, 2, 4, 4, false, 88, new Requirements(), "hsra5q", "https://cdn.discordapp.com/attachments/1015693706835279995/1016648915883405322/IMG_3753.png");
 new FactorySplitter("1:3", "Machine Shop/Forge", 1, 3, 6, 5, false, 132, new Requirements(), "ctftmy", "https://cdn.discordapp.com/attachments/1015693706835279995/1016648983998898229/IMG_3754.png");
@@ -254,6 +254,7 @@ new FactorySplitter("1:10", "Machine Shop/Forge", 1, 10, 20, 5, true, 1260, new 
 // Industrial Factory
 new FactorySplitter("Manifold Even", "Industrial Factory", 1, Infinity, Infinity, 8, false, null, new Requirements(), "66mxvn", "https://cdn.discordapp.com/attachments/1015693789525979277/1016650894982512661/IMG_3801.png");
 new FactorySplitter("Manifold Even", "Industrial Factory", 1, Infinity, 19, Infinity, true, null, new Requirements(), "vlwtbf", "https://cdn.discordapp.com/attachments/1015693789525979277/1016650927144443954/IMG_3809.png");
+new FactorySplitter("Manifold Even", "Industrial Factory", 1, Infinity, 17, Infinity, true, null, new Requirements(), "dys6wz", "https://cdn.discordapp.com/attachments/1015693789525979277/1079041789106868274/IMG_1442.png");
 new FactorySplitter("Manifold Odd", "Industrial Factory", 1, Infinity, Infinity, 9, false, null, new Requirements(), "2bhptp", "https://cdn.discordapp.com/attachments/1015693789525979277/1016650964884795513/IMG_3808.png");
 new FactorySplitter("1:2", "Industrial Factory", 1, 2, 6, 5, false, 176, new Requirements(), "08nssf", "https://cdn.discordapp.com/attachments/1015693789525979277/1017026765526413342/IMG_4321.png");
 new FactorySplitter("1:3", "Industrial Factory", 1, 3, 9, 6, false, 274, new Requirements(), "cxdagl", "https://cdn.discordapp.com/attachments/1015693789525979277/1016651097680654346/IMG_3775.png");
