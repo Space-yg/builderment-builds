@@ -9,6 +9,7 @@
 }
 
 /** Organization **/
+html { scroll-behavior: smooth; }
 body {
     /* Position */
     background-color: rgb(230, 230, 230);
@@ -51,19 +52,6 @@ h4 {
     text-align: center;
 }
 
-/** Images **/
-img {
-    /* Position */
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-}
-img.blueprint {
-    /* Position */
-    width: 25px;
-}
-
 /** divs **/
 div.collection {
     /* Position */
@@ -98,6 +86,37 @@ div.collection div div.blueprint {
     justify-content: center;
     background-color: transparent;
     border: none;
+}
+
+/** Images **/
+img {
+    /* Position */
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+div.blueprint img:first-child {
+    /* Position */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+div.blueprint a img:first-child {
+    /* Position */
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+}
+div.blueprint img {
+    /* Position */
+    width: 25px;
+    margin: 0;
 }
 
 /** footer **/
