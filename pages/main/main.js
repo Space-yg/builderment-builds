@@ -27,7 +27,14 @@ function showBuild(builds) {
             urlPrams.outputs = m.value;
         }
         let div = `<div id="${buildInfo.blueprint.href.match(/[^/]+$/)[0]}">
-            <div class="blueprint"><img src="./images/chain link icon.png" alt="Build Link" onclick="navigator.clipboard.writeText('${createBuildURL(urlPrams)}');"><h3>${buildInfo.name} ${buildInfo.category}</h3><a href="${buildInfo.blueprint}" target="_blank" class="blueprint"><img src="./images/blueprint.png" alt="blueprint"></a></div>
+            <div class="blueprint">
+                <div class="tooltip">
+                    <img src="./images/chain link icon.png" alt="Build Link" onclick="navigator.clipboard.writeText('${createBuildURL(urlPrams)}'); event.target.nextElementSibling.innerHTML = 'Copied!';" onmouseleave="event.target.nextElementSibling.innerHTML = 'Copy';">
+                    <span>Copy</span>
+                </div>
+                <h3>${buildInfo.name} ${buildInfo.category}</h3>
+                <a href="${buildInfo.blueprint}" target="_blank" class="blueprint"><img src="./images/blueprint.png" alt="blueprint"></a>
+            </div>
             <img src="${buildInfo.image}" alt="${buildInfo.name} ${buildInfo.category}">
             <h4>Properties</h4>
             <div>
@@ -63,7 +70,7 @@ function showBuild(builds) {
         tables.innerHTML += div;
     });
 }
-
+if (!new URL(window.location.href).searchParams.get("build")) window.history.pushState(null, null, "./");
 // Change build
 function buildChange() {
     // Remove all tables
@@ -104,7 +111,7 @@ function buildChange() {
     
     if (url.searchParams.get("build")) {
         const nParam = url.searchParams.get("inputs");
-        const roboticArmTierParam = url.searchParams.get("inputs");
+        const roboticArmTierParam = url.searchParams.get("roboticArmTier");
         if (nParam) {
             n.value = nParam;
             changeN();

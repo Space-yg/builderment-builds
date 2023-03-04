@@ -52,7 +52,8 @@ h4 {
     text-align: center;
 }
 
-/** divs **/
+
+/** Collection **/
 div.collection {
     /* Position */
     margin: 10px auto;
@@ -86,6 +87,54 @@ div.collection div div.blueprint {
     justify-content: center;
     background-color: transparent;
     border: none;
+}
+
+/** Tooltip **/
+div.collection div div.blueprint div.tooltip:first-child { margin: 0; }
+div.collection div div.blueprint div.tooltip {
+    /* Position */
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: transparent;
+}
+div.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgb(200, 200, 200);
+}
+div.tooltip span {
+    visibility: hidden;
+    width: 50px;
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 200%;
+    left: 50%;
+    margin-left: -25px; /* -width / 2 */
+
+    opacity: 0;
+    transition: opacity .5s;
+}
+div.tooltip span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200) transparent transparent transparent;
+}
+div.tooltip:hover span {
+    visibility: visible;
+    opacity: 1;
 }
 
 /** Images **/
@@ -177,12 +226,18 @@ footer a {
         /* Position */
         border-radius: 23px;
     }
-    img.blueprint {
+    div.blueprint img {
         /* Position */
         width: 50px;
     }
 
     /** divs **/
+    div.tooltip span {
+        font-size: 1.75rem;
+        width: 90px;
+        border-radius: 10px;
+        margin-left: -45px; /* -width / 2 */
+    }
     div.collection {
         /* Position */
         max-width: 100%;
@@ -203,6 +258,7 @@ footer a {
     div.collection div div.blueprint {
         margin: 10px;
     }
+
     /** footer **/
     footer {
         /* Font */
