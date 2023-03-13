@@ -95,6 +95,7 @@ new Balancer(6, 9, 12, 14, false, 988, new Requirements(), "g3gq3q", "https://cd
 new Balancer(6, 10, 10, 20, true, 1348, new Requirements(), "7qawjc", "https://cdn.discordapp.com/attachments/1015664856319402034/1023532169127276574/IMG_4748.png");
 new Balancer(6, 14, 16, 12, true, 1300, new Requirements(), "y0lg5w", "https://cdn.discordapp.com/attachments/1015664856319402034/1075842324023754832/IMG_1261.png");
 new Balancer(6, 16, 16, 11, true, 1140, new Requirements(), "dtja31", "https://cdn.discordapp.com/attachments/1015664856319402034/1028651493668171806/IMG_5066.png");
+new Balancer(6, 18, 18, 9, true, 812, new Requirements(), "zwxbjn", "https://cdn.discordapp.com/attachments/1015664856319402034/1083823528593326130/IMG_1556.png");
 // 8:N
 new Balancer(8, 16, 16, 12, true, 1300, new Requirements(), "cpr4r4", "https://cdn.discordapp.com/attachments/1015664856319402034/1028100339561402379/IMG_5050.png");
 new Balancer(8, 30, 30, 10, true, 1972, new Requirements(), "3wyj9m", "https://cdn.discordapp.com/attachments/1015664856319402034/1017462055411912724/IMG_8830.png");
