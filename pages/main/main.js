@@ -70,18 +70,24 @@ function showBuild(builds) {
         tables.innerHTML += div;
     });
 }
-if (!new URL(window.location.href).searchParams.get("build")) window.history.pushState(null, null, "./");
+
+// if any input is changed...
+function inputChange() {
+    if (new URLSearchParams(window.location.search).get("build")) history.replaceState(null, null, "./");
+}
+
 // Change build
 function buildChange() {
     // Remove all tables
     tables.innerHTML = "";
 
-    let url = new URL(window.location.href);
+    // Change build if it is in URL parameter
+    let url = new URLSearchParams(window.location.search);
     if (build.value === "") {
-        const buildParam = url.searchParams.get("build");
+        const buildParam = url.get("build");
         if (buildParam) build.value = buildParam;
-    } else window.history.pushState(null, null, "./");
-    url = new URL(window.location.href);
+    } else inputChange();
+    url = new URLSearchParams(window.location.search);
 
     // Remove all select
     [...document.getElementsByClassName("n")].forEach(element => element.style.display = "none");
@@ -108,14 +114,15 @@ function buildChange() {
         const tiers = (build.value === "Overflow Valve") ? Valve.valves : LabBalancer.labBalancers;
         for (const tier in tiers) roboticArmTier.innerHTML += `<option>${tier}</option>`;
     }
-    
-    if (url.searchParams.get("build")) {
-        const nParam = url.searchParams.get("inputs");
-        const roboticArmTierParam = url.searchParams.get("roboticArmTier");
+
+    // Go to build if it is in URL parameters
+    if (url.get("build")) {
+        const nParam = url.get("inputs");
+        const roboticArmTierParam = url.get("roboticArmTier");
         if (nParam) {
             n.value = nParam;
             changeN();
-            m.value = url.searchParams.get("outputs");
+            m.value = url.get("outputs");
             changeM();
         } else if (roboticArmTierParam) {
             roboticArmTier.value = roboticArmTierParam;
@@ -143,7 +150,7 @@ function changeN() {
     for (const mm in ms) m.innerHTML += `<option>${mm}</option>`;
 }
 n.addEventListener("change", () => {
-    window.history.pushState(null, null, "./");
+    inputChange();
     changeN();
 });
 
@@ -156,7 +163,7 @@ function changeM() {
     showBuild(((build.value === "Belt Balancer") ? Balancer.balancers : (build.value === "Belt Splitter") ? Splitter.splitters : FactorySplitter.factories[build.value])[n.value][m.value]);
 }
 m.addEventListener("change", () => {
-    window.history.pushState(null, null, "./");
+    inputChange();
     changeM();
 });
 
@@ -169,7 +176,7 @@ function changeRoboticArmTier() {
     showBuild(((build.value === "Overflow Valve") ? Valve.valves : LabBalancer.labBalancers)[roboticArmTier.value]);
 }
 roboticArmTier.addEventListener("change", () => {
-    window.history.pushState(null, null, "./");
+    inputChange();
     changeRoboticArmTier();
 });
 
