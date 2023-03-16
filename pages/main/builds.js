@@ -236,6 +236,8 @@ new Splitter(6, 7, 8, 13, false, 750, new Requirements(), "t93yta", "https://cdn
 new Splitter(6, 8, 8, 7, true, 380, new Requirements(), "rn14dx", "https://cdn.discordapp.com/attachments/1015665022967480320/1019221409668550686/IMG_8926.png");
 new Splitter(6, 9, 9, 8, false, 424, new Requirements(), "zfcy5l", "https://cdn.discordapp.com/attachments/1015665022967480320/1025996360958357564/IMG_9068.png");
 new Splitter(6, 10, 10, 8, true, 576, new Requirements(), "1q5zf3", "https://cdn.discordapp.com/attachments/1015665022967480320/1025968437555634276/IMG_9067.png");
+// 12:N
+new Splitter(12, 11, 12, 6, false, 528, new Requirements(), "yxk707", "https://cdn.discordapp.com/attachments/1015665022967480320/1085884692642930738/IMG_1580.png");
 
 //// Factories
 // Workshop/Furnace
