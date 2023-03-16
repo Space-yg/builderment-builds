@@ -8,3 +8,6 @@ d.innerHTML = `<footer>
 <p><a href="${path}">${new DOMParser().parseFromString(text, 'text/html').getElementsByTagName("h2").item(0).innerHTML}</a></p>
 </footer>`;
 document.body.appendChild(d.firstChild);
+
+// Removes file name from path
+if (!new URLSearchParams(window.location.search).get("build")) history.replaceState(null, null, "./");
