@@ -1,0 +1,25 @@
+/** Image **/
+img[src="../../images/chain link icon.png"] {
+    /* Position */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+img {
+    /* Position */
+    width: 20px;
+    margin: 7px 2px 0 2px;
+    height: fit-content;
+}
+
+/** divs **/
+div.collection li div:first-child { margin: 0; }
+div.collection li div {
+    /* Position */
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
