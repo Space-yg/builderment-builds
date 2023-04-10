@@ -27,7 +27,7 @@ new Balancer(17, 17, 30, 28, false, 4740, new Requirements(), "j3x7p8", "https:/
 new Balancer(18, 18, 30, 28, false, 4784, new Requirements(), "gvs1fy", "https://cdn.discordapp.com/attachments/1015662339737006090/1046554054010077276/IMG_0781.png");
 new Balancer(19, 19, 40, 28, false, 6806, new Requirements(), "qsmysd", "https://cdn.discordapp.com/attachments/1015662339737006090/1027607847313354792/IMG_5041.png");
 new Balancer(20, 20, 40, 28, true, 6744, new Requirements(), "wr5765", "https://cdn.discordapp.com/attachments/1015662339737006090/1027529107371737108/IMG_5040.png");
-new Balancer(21, 21, 36, 36, false, 7448, new Requirements(), "m43tb5", "https://cdn.discordapp.com/attachments/1015662339737006090/1022823066130186240/IMG_9003.png");
+new Balancer(21, 21, 36, 32, false, 7052, new Requirements(), "qp3sht", "https://cdn.discordapp.com/attachments/1015662339737006090/1094267076987863152/IMG_1744.png");
 new Balancer(22, 22, 40, 31, true, 7480, new Requirements(), "ppq5qr", "https://cdn.discordapp.com/attachments/1015662339737006090/1065254271295176794/IMG_1015.png");
 new Balancer(23, 23, 40, 31, false, 7520, new Requirements(), "m5zatv", "https://cdn.discordapp.com/attachments/1015662339737006090/1065254436097753128/IMG_1016.png");
 new Balancer(24, 24, 40, 31, true, 7560, new Requirements(), "3c55hs", "https://cdn.discordapp.com/attachments/1015662339737006090/1027370303170551838/IMG_5036.png");
@@ -224,6 +224,7 @@ new Splitter(3, 9, 9, 2, true, 82, new Requirements(), "km1f2n", "https://cdn.di
 new Splitter(4, 5, 6, 12, false, 554, new Requirements(), "vt2c5g", "https://cdn.discordapp.com/attachments/1015665022967480320/1018494229984583710/IMG_8876.png");
 new Splitter(4, 6, 6, 6, true, 240, new Requirements(), "0yj87z", "https://cdn.discordapp.com/attachments/1015665022967480320/1018777082936967168/IMG_8887.png");
 new Splitter(4, 7, 8, 9, false, 440, new Requirements(), "tyzlcc", "https://cdn.discordapp.com/attachments/1015665022967480320/1018693215207047248/IMG_8879.png");
+new Splitter(4, 8, 8, 2, true, 88, new Requirements(), "c2qvmt", "https://cdn.discordapp.com/attachments/1015665022967480320/1090945311792443432/IMG_1663.jpg");
 new Splitter(4, 9, 10, 8, false, 474, new Requirements(), "xv5lc1", "https://cdn.discordapp.com/attachments/1015665022967480320/1023301097126887455/IMG_4738.png");
 new Splitter(4, 10, 10, 7, true, 344, new Requirements(), "fsbj0q", "https://cdn.discordapp.com/attachments/1015665022967480320/1018697424052695090/IMG_8881.png");
 new Splitter(4, 14, 14, 6, true, 444, new Requirements(), "0lh4yr", "https://cdn.discordapp.com/attachments/1015665022967480320/1016644741204553762/cachedImage.png");
