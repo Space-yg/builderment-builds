@@ -267,7 +267,7 @@ new FactorySplitter("Manifold Odd", "Industrial Factory", 1, Infinity, Infinity,
 new FactorySplitter("1:2", "Industrial Factory", 1, 2, 6, 5, false, 176, new Requirements(), "08nssf", "https://cdn.discordapp.com/attachments/1015693789525979277/1017026765526413342/IMG_4321.png");
 new FactorySplitter("1:3", "Industrial Factory", 1, 3, 9, 6, false, 274, new Requirements(), "cxdagl", "https://cdn.discordapp.com/attachments/1015693789525979277/1016651097680654346/IMG_3775.png");
 new FactorySplitter("1:4", "Industrial Factory", 1, 4, 12, 6, false, 390, new Requirements(), "v305bq", "https://cdn.discordapp.com/attachments/1015693789525979277/1021862642282938408/IMG_4632.png");
-new FactorySplitter("1:5", "Industrial Factory", 1, 5, 15, 9, true, 682, new Requirements(), "x1566j2", "https://cdn.discordapp.com/attachments/1015693789525979277/1017026910087303208/IMG_4322.png");
+new FactorySplitter("1:5", "Industrial Factory", 1, 5, 15, 9, true, 682, new Requirements(), "x156j2", "https://cdn.discordapp.com/attachments/1015693789525979277/1017026910087303208/IMG_4322.png");
 new FactorySplitter("1:6", "Industrial Factory", 1, 6, 18, 6, false, 596, new Requirements(), "tm9dxt", "https://cdn.discordapp.com/attachments/1015693789525979277/1016651333035638834/IMG_3847.png");
 new FactorySplitter("1:7", "Industrial Factory", 1, 7, 21, 7, true, 886, new Requirements(), "skjrt0", "https://cdn.discordapp.com/attachments/1015693789525979277/1016651405911674890/IMG_3780.png");
 new FactorySplitter("1:8", "Industrial Factory", 1, 8, 24, 7, false, 1016, new Requirements(), "kzf1z0", "https://cdn.discordapp.com/attachments/1015693789525979277/1016651458881527868/IMG_3834.png");
