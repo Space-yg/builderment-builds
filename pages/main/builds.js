@@ -205,7 +205,7 @@ new Splitter(1, 30, 30, 3, false, 580, new Requirements(), "crsv1w", "https://cd
 new Splitter(1, 31, 31, 4, true, 596, new Requirements(), "g0ggfy", "https://cdn.discordapp.com/attachments/1015664941421822002/1016643280370421770/IMG_3711.png");
 new Splitter(1, 32, 32, 3, false, 590, new Requirements(), "3sgpqg", "https://cdn.discordapp.com/attachments/1015664941421822002/1016643332836970516/IMG_3712.png");
 // 2:N
-new Splitter(2, 3, 5, 2, true, 120, new Requirements(), "4dn6sq", "https://cdn.discordapp.com/attachments/1015665022967480320/1018385971777126462/IMG_8861.png");
+new Splitter(2, 3, 5, 3, false, 64, new Requirements(), "bnh1rj", "https://cdn.discordapp.com/attachments/1015665022967480320/1148197785879986336/latest.webp");
 new Splitter(2, 3, 3, 6, false, 52, new Requirements(), "wgtz72", "https://cdn.discordapp.com/attachments/1015665022967480320/1018758461418373130/IMG_4453.png");
 new Splitter(2, 4, 5, 2, true, 28, new Requirements(), "8w8cf8", "https://cdn.discordapp.com/attachments/1015665022967480320/1018386616538116148/IMG_8863.png");
 new Splitter(2, 5, 5, 7, false, 168, new Requirements(), "b0my2z", "https://cdn.discordapp.com/attachments/1015665022967480320/1018387191434588232/IMG_8864.png");
@@ -313,6 +313,6 @@ new LabBalancer("19x19", 19, 19, true, 355328, new Requirements({roboticArmTier:
 new LabBalancer("17x17", 17, 17, true, 89992, new Requirements({roboticArmTier: 4, minBeltSpeed: 480, maxBeltSpeed: 480}), "dkfjah", "https://cdn.discordapp.com/attachments/1015687918829977681/1015937244395229184/IMG_4061.png");
 new LabBalancer("17x17", 17, 17, true, 90016, new Requirements({roboticArmTier: 4, minBeltSpeed: 450, maxBeltSpeed: 450}), "tahr1y", "https://cdn.discordapp.com/attachments/1015687918829977681/1015937630438965411/IMG_4062.png");
 new LabBalancer("17x17", 17, 17, true, 89952, new Requirements({roboticArmTier: 4, minBeltSpeed: 420, maxBeltSpeed: 420}), "9az1tm", "https://cdn.discordapp.com/attachments/1015687918829977681/1015938305092751371/IMG_4063.png");
-new LabBalancer("21x21", 21, 21, true, 10112, new Requirements({roboticArmTier: 1, maxBeltSpeed: 180}), "kmb48y", "https://cdn.discordapp.com/attachments/1015687918829977681/1015962208640979075/IMG_4072.png");
+new LabBalancer("21x21", 21, 21, true, 10112, new Requirements({roboticArmTier: 1, maxBeltSpeed: 165}), "kmb48y", "https://cdn.discordapp.com/attachments/1015687918829977681/1015962208640979075/IMG_4072.png");
 new LabBalancer("21x21", 21, 21, true, 35712, new Requirements({roboticArmTier: 2, maxBeltSpeed: 330}), "0mnjlc", "https://cdn.discordapp.com/attachments/1007336434916675644/1077958768001810482/IMG_4073.png");
 new LabBalancer("21x21", 21, 21, true, 99712, new Requirements({roboticArmTier: 3}), "md76lv", "https://cdn.discordapp.com/attachments/1007336434916675644/1078612910210830346/IMG_4074.png");
