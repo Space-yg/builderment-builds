@@ -305,7 +305,6 @@ new Valve("Multi-lane", Infinity, 35, false, null, new Requirements({roboticArmT
 
 //// Lab Balancers
 new LabBalancer("11x11", 11, 11, true, 704, new Requirements(), "w6cpc0", "https://cdn.discordapp.com/attachments/1015687918829977681/1016645437157019678/IMG_4075.png");
-new LabBalancer("Nuclear", 15, 15, false, 504186, new Requirements({roboticArmTier: 1}), "gb2nkp", "https://cdn.discordapp.com/attachments/1015687918829977681/1164960417093787749/IMG_3449.png?ex=654e576f&is=653be26f&hm=7c3509410c7d61149bc385a29bdf827c7060cb773d2c85fa734b4298aa441cdf&");
 new LabBalancer("Universal", 15, 15, true, 3120, new Requirements({roboticArmTier: 1}), "kf2w0l", "https://cdn.discordapp.com/attachments/1015687918829977681/1071776980434948126/IMG_1168.png");
 new LabBalancer("Universal", 15, 15, true, 9488, new Requirements({roboticArmTier: 2}), "x048p7", "https://cdn.discordapp.com/attachments/1007336434916675644/1077976054397935696/IMG_1383.png");
 new LabBalancer("Universal", 15, 15, true, 25488, new Requirements({roboticArmTier: 3}), "basszf", "https://cdn.discordapp.com/attachments/1007336434916675644/1077976120038801438/IMG_1384.png");
@@ -319,3 +318,4 @@ new LabBalancer("17x17", 17, 17, true, 89952, new Requirements({roboticArmTier: 
 new LabBalancer("21x21", 21, 21, true, 10112, new Requirements({roboticArmTier: 1, maxBeltSpeed: 165}), "kmb48y", "https://cdn.discordapp.com/attachments/1015687918829977681/1015962208640979075/IMG_4072.png");
 new LabBalancer("21x21", 21, 21, true, 35712, new Requirements({roboticArmTier: 2, maxBeltSpeed: 330}), "0mnjlc", "https://cdn.discordapp.com/attachments/1007336434916675644/1077958768001810482/IMG_4073.png");
 new LabBalancer("21x21", 21, 21, true, 99712, new Requirements({roboticArmTier: 3}), "md76lv", "https://cdn.discordapp.com/attachments/1007336434916675644/1078612910210830346/IMG_4074.png");
+new LabBalancer("Nuclear", 15, 15, false, 504186, new Requirements({roboticArmTier: 1}), "gb2nkp", "https://cdn.discordapp.com/attachments/1015687918829977681/1164960417093787749/IMG_3449.png?ex=654e576f&is=653be26f&hm=7c3509410c7d61149bc385a29bdf827c7060cb773d2c85fa734b4298aa441cdf&");
