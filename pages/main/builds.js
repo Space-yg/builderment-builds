@@ -15,7 +15,7 @@ new Balancer(8, 8, 10, 17, false, 1160, new Requirements({tunnelLength: 5}), "25
 new Balancer(8, 8, 8, 32, false, 1732, new Requirements(), "s53pz0", "https://cdn.discordapp.com/attachments/1015662339737006090/1016794876408496259/IMG_4303.png");
 new Balancer(8, 8, 8, 30, false, 1572, new Requirements({tunnelLength: 6}), "tts9rd", "https://cdn.discordapp.com/attachments/1015662339737006090/1017015994323042384/IMG_4304.png");
 new Balancer(9, 9, 15, 19, false, 1694, new Requirements(), "x67kn7", "https://cdn.discordapp.com/attachments/1015662339737006090/1016813936294768777/IMG_8790.png");
-new Balancer(10, 10, 20, 18, false, 2236, new Requirements(), "l9tbqb", "https://cdn.discordapp.com/attachments/1015662339737006090/1017031345320509502/IMG_8792.png");
+new Balancer(10, 10, 20, 17, true, 2064, new Requirements(), "4xabsd", "https://cdn.discordapp.com/attachments/1015662339737006090/1219785245164048570/IMG_4825.png");
 new Balancer(10, 10, 18, 19, true, 2148, new Requirements({tunnelLength: 6}), "sgks2x", "https://cdn.discordapp.com/attachments/1015662339737006090/1031867937000280075/IMG_0408.png");
 new Balancer(11, 11, 18, 23, false, 2644, new Requirements(), "5a3z1a", "https://cdn.discordapp.com/attachments/1015662339737006090/1031581126889852988/IMG_0396.png");
 new Balancer(12, 12, 20, 20, true, 2480, new Requirements(), "v48dzp", "https://cdn.discordapp.com/attachments/1015662339737006090/1034830142536700016/IMG_0491.png");
@@ -33,6 +33,8 @@ new Balancer(22, 22, 40, 31, true, 7480, new Requirements(), "ppq5qr", "https://
 new Balancer(23, 23, 40, 31, false, 7520, new Requirements(), "m5zatv", "https://cdn.discordapp.com/attachments/1015662339737006090/1065254436097753128/IMG_1016.png");
 new Balancer(24, 24, 40, 31, true, 7560, new Requirements(), "3c55hs", "https://cdn.discordapp.com/attachments/1015662339737006090/1027370303170551838/IMG_5036.png");
 new Balancer(25, 25, 50, 38, false, 11032, new Requirements(), "vjyt1a", "https://cdn.discordapp.com/attachments/1015662339737006090/1023365429688807464/IMG_4741.png");
+new Balancer(26, 26, 48, 40, true, 11744, new Requirements(), "v22k3r", "https://cdn.discordapp.com/attachments/1015662339737006090/1214239220982349904/IMG_4724.png");
+new Balancer(27, 27, 48, 40, true, 11736, new Requirements(), "7b1y9z", "https://cdn.discordapp.com/attachments/1015662339737006090/1214239404453789786/IMG_4725.png");
 new Balancer(28, 28, 48, 40, true, 11716, new Requirements(), "xgdpbc", "https://cdn.discordapp.com/attachments/1015662339737006090/1080499214523580548/IMG_1466.png");
 new Balancer(29, 29, 48, 40, false, 11716, new Requirements(), "nrhw5h", "https://cdn.discordapp.com/attachments/1015662339737006090/1080499390491402310/IMG_1467.png");
 new Balancer(30, 30, 48, 40, true, 11804, new Requirements(), "hzkrgc", "https://cdn.discordapp.com/attachments/1015662339737006090/1080106938391601233/IMG_1452.png");
@@ -89,7 +91,7 @@ new Balancer(5, 10, 10, 13, false, 744, new Requirements(), "tzjnwz", "https://c
 new Balancer(5, 11, 13, 13, false, 1080, new Requirements(), "vtrhs7", "https://cdn.discordapp.com/attachments/1015664856319402034/1016488897292812449/cachedImage.png");
 new Balancer(5, 12, 13, 13, false, 1044, new Requirements(), "yhffnq", "https://cdn.discordapp.com/attachments/1015664856319402034/1023534044664844288/IMG_4749.png");
 new Balancer(5, 13, 15, 13, true, 1196, new Requirements(), "waqqlf", "https://cdn.discordapp.com/attachments/1015664856319402034/1023710500623757382/IMG_4754.png");
-new Balancer(5, 17, 17, 10, true, 1020, new Requirements(), "32xb4l", "https://cdn.discordapp.com/attachments/1015664856319402034/1158738767817998366/IMG_3337.png?ex=652e7a92&is=651c0592&hm=8cd375788d5c6b10ed617c985fbc6be0935ea41bc2d10b7d143f787c49bd67f2&");
+new Balancer(5, 17, 17, 10, true, 1020, new Requirements(), "32xb4l", "https://cdn.discordapp.com/attachments/1015664856319402034/1158738767817998366/IMG_3337.png");
 // 6:N
 new Balancer(6, 7, 12, 14, true, 1048, new Requirements(), "kcnsyw", "https://cdn.discordapp.com/attachments/1015664856319402034/1030093887726948362/IMG_5116.png");
 new Balancer(6, 8, 12, 12, true, 868, new Requirements(), "twk1xa", "https://cdn.discordapp.com/attachments/1015664856319402034/1030094380930969622/IMG_5117.png");
@@ -97,7 +99,7 @@ new Balancer(6, 9, 12, 14, false, 988, new Requirements(), "g3gq3q", "https://cd
 new Balancer(6, 10, 10, 20, true, 1348, new Requirements(), "7qawjc", "https://cdn.discordapp.com/attachments/1015664856319402034/1023532169127276574/IMG_4748.png");
 new Balancer(6, 14, 16, 12, true, 1300, new Requirements(), "y0lg5w", "https://cdn.discordapp.com/attachments/1015664856319402034/1075842324023754832/IMG_1261.png");
 new Balancer(6, 16, 16, 11, true, 1140, new Requirements(), "dtja31", "https://cdn.discordapp.com/attachments/1015664856319402034/1028651493668171806/IMG_5066.png");
-new Balancer(6, 17, 17, 16, false, 1644, new Requirements(), "hlt6rt", "https://cdn.discordapp.com/attachments/1015664856319402034/1158738901654065162/IMG_3338.png?ex=652e7ab2&is=651c05b2&hm=bf3e8e26a045949e8834852bf69c86a8eccf94e9c61d6f4c18ab5d80f72415ae&");
+new Balancer(6, 17, 17, 16, false, 1644, new Requirements(), "hlt6rt", "https://cdn.discordapp.com/attachments/1015664856319402034/1158738901654065162/IMG_3338.png");
 new Balancer(6, 18, 18, 9, true, 812, new Requirements(), "zwxbjn", "https://cdn.discordapp.com/attachments/1015664856319402034/1083823528593326130/IMG_1556.png");
 // 8:N
 new Balancer(8, 16, 16, 12, true, 1300, new Requirements(), "cpr4r4", "https://cdn.discordapp.com/attachments/1015664856319402034/1028100339561402379/IMG_5050.png");
@@ -168,7 +170,7 @@ new Balancer(14, 13, 24, 30, false, 4410, new Requirements(), "ws7tq1", "https:/
 new Balancer(16, 8, 24, 23, true, 3224, new Requirements(), "g0ncg7", "https://cdn.discordapp.com/attachments/1016391745719783434/1070260300827336734/IMG_1122.png");
 new Balancer(17, 15, 25, 33, false, 4964, new Requirements(), "2sbgc6", "https://cdn.discordapp.com/attachments/1016391745719783434/1067872034023034992/IMG_1065.png");
 new Balancer(18, 2, 18, 8, true, 916, new Requirements(), "wy8s3a", "https://cdn.discordapp.com/attachments/1016391745719783434/1068804781444960316/IMG_1090.png");
-new Balancer(19, 17, 31, 34, false, 6034, new Requirements(), "94m1qc", "https://cdn.discordapp.com/attachments/1016391745719783434/1158739624307458111/IMG_3336.png?ex=652e7b5e&is=651c065e&hm=f13e6caee1274eefe7412cdae48c654a2032c12166d4eff29e161e988162ad71&");
+new Balancer(19, 17, 31, 34, false, 6034, new Requirements(), "94m1qc", "https://cdn.discordapp.com/attachments/1016391745719783434/1158739624307458111/IMG_3336.png");
 new Balancer(20, 13, 36, 31, false, 6826, new Requirements(), "m0atnr", "https://cdn.discordapp.com/attachments/1016391745719783434/1033433098941120512/IMG_0469.png");
 new Balancer(21, 7, 36, 24, false, 4866, new Requirements(), "sk8qqp", "https://cdn.discordapp.com/attachments/1016391745719783434/1046425948045721702/IMG_0775.png");
 new Balancer(22, 14, 36, 31, true, 6984, new Requirements(), "y5txbt", "https://cdn.discordapp.com/attachments/1016391745719783434/1033425224558989383/IMG_0468.png");
@@ -305,10 +307,14 @@ new Valve("Multi-lane", Infinity, 35, false, null, new Requirements({roboticArmT
 
 //// Lab Balancers
 new LabBalancer("11x11", 11, 11, true, 704, new Requirements(), "w6cpc0", "https://cdn.discordapp.com/attachments/1015687918829977681/1016645437157019678/IMG_4075.png");
-new LabBalancer("Universal", 15, 15, true, 3120, new Requirements({roboticArmTier: 1}), "kf2w0l", "https://cdn.discordapp.com/attachments/1015687918829977681/1071776980434948126/IMG_1168.png");
-new LabBalancer("Universal", 15, 15, true, 9488, new Requirements({roboticArmTier: 2}), "x048p7", "https://cdn.discordapp.com/attachments/1007336434916675644/1077976054397935696/IMG_1383.png");
-new LabBalancer("Universal", 15, 15, true, 25488, new Requirements({roboticArmTier: 3}), "basszf", "https://cdn.discordapp.com/attachments/1007336434916675644/1077976120038801438/IMG_1384.png");
-new LabBalancer("Universal", 15, 15, true, 89488, new Requirements({roboticArmTier: 4}), "wtflbm", "https://cdn.discordapp.com/attachments/1007336434916675644/1077976208832204840/IMG_1385.png");
+new LabBalancer("Universal", 13, 13, true, 2992, new Requirements({roboticArmTier: 1}), "d3yzjt", "https://cdn.discordapp.com/attachments/1015687918829977681/1216789146912424138/IMG_4777.png");
+new LabBalancer("Universal", 13, 13, true, 9392, new Requirements({roboticArmTier: 2}), "d3yzjt", "https://cdn.discordapp.com/attachments/1015687918829977681/1216789146912424138/IMG_4777.png");
+new LabBalancer("Universal", 13, 13, true, 25392, new Requirements({roboticArmTier: 3}), "d3yzjt", "https://cdn.discordapp.com/attachments/1015687918829977681/1216789146912424138/IMG_4777.png");
+new LabBalancer("Universal", 13, 13, true, 89392, new Requirements({roboticArmTier: 4}), "d3yzjt", "https://cdn.discordapp.com/attachments/1015687918829977681/1216789146912424138/IMG_4777.png");
+new LabBalancer("Universal", 15, 15, true, 3120, new Requirements({roboticArmTier: 1}), "kf2w0l", "https://cdn.discordapp.com/attachments/1015687918829977681/1216785603937566890/IMG_1168.png");
+new LabBalancer("Universal", 15, 15, true, 9520, new Requirements({roboticArmTier: 2}), "kf2w0l", "https://cdn.discordapp.com/attachments/1015687918829977681/1216785603937566890/IMG_1168.png");
+new LabBalancer("Universal", 15, 15, true, 37720, new Requirements({roboticArmTier: 3}), "kf2w0l", "https://cdn.discordapp.com/attachments/1015687918829977681/1216785603937566890/IMG_1168.png");
+new LabBalancer("Universal", 15, 15, true, 165720, new Requirements({roboticArmTier: 4}), "kf2w0l", "https://cdn.discordapp.com/attachments/1015687918829977681/1216785603937566890/IMG_1168.png");
 new LabBalancer("19x19", 19, 19, true, 35328, new Requirements({roboticArmTier: 2, maxBeltSpeed: 165}), "f3s325", "https://cdn.discordapp.com/attachments/1015687918829977681/1077973199754641468/IMG_1381.png");
 new LabBalancer("19x19", 19, 19, true, 99328, new Requirements({roboticArmTier: 3, maxBeltSpeed: 330}), "13m0ys", "https://cdn.discordapp.com/attachments/1007336434916675644/1077974122958684230/IMG_1382.png");
 new LabBalancer("19x19", 19, 19, true, 355328, new Requirements({roboticArmTier: 4}), "1xkq98", "https://cdn.discordapp.com/attachments/1007336434916675644/1077958460295086140/IMG_4060.png");
@@ -318,7 +324,7 @@ new LabBalancer("17x17", 17, 17, true, 89952, new Requirements({roboticArmTier: 
 new LabBalancer("21x21", 21, 21, true, 10112, new Requirements({roboticArmTier: 1, maxBeltSpeed: 165}), "kmb48y", "https://cdn.discordapp.com/attachments/1015687918829977681/1015962208640979075/IMG_4072.png");
 new LabBalancer("21x21", 21, 21, true, 35712, new Requirements({roboticArmTier: 2, maxBeltSpeed: 330}), "0mnjlc", "https://cdn.discordapp.com/attachments/1007336434916675644/1077958768001810482/IMG_4073.png");
 new LabBalancer("21x21", 21, 21, true, 99712, new Requirements({roboticArmTier: 3}), "md76lv", "https://cdn.discordapp.com/attachments/1007336434916675644/1078612910210830346/IMG_4074.png");
-new LabBalancer("Nuclear", 15, 15, false, 504186, new Requirements({roboticArmTier: 1}), "gb2nkp", "https://cdn.discordapp.com/attachments/1015687918829977681/1164960417093787749/IMG_3449.png?ex=654e576f&is=653be26f&hm=7c3509410c7d61149bc385a29bdf827c7060cb773d2c85fa734b4298aa441cdf&");
-new LabBalancer("Nuclear", 15, 15, false, 510586, new Requirements({roboticArmTier: 2}), "j2qycv", "https://cdn.discordapp.com/attachments/1007336434916675644/1168529567036735488/IMG_3546.png?ex=655218f7&is=653fa3f7&hm=bbff0a34211d77e1bf575beda90daf8edba9097b57f57c994b033096199c79a8&");
-new LabBalancer("Nuclear", 15, 15, false, 526586, new Requirements({roboticArmTier: 3}), "3cvrqr", "https://cdn.discordapp.com/attachments/1007336434916675644/1168529666404003882/IMG_3547.png?ex=6552190e&is=653fa40e&hm=f54ea36dc3cba51b352f5dc30664b9fa09a86c4a7c869e24bcd67670a452f257&");
-new LabBalancer("Nuclear", 15, 15, false, 590586, new Requirements({roboticArmTier: 4}), "8tgb5v", "https://cdn.discordapp.com/attachments/1007336434916675644/1168529740290854962/IMG_3548.png?ex=65521920&is=653fa420&hm=2ec8eb746847f1b9a08729198a7a2a4f01c6a46b8873abab50171bcf0c4a1ee4&");
+new LabBalancer("Nuclear", 15, 15, false, 504186, new Requirements({roboticArmTier: 1}), "gb2nkp", "https://cdn.discordapp.com/attachments/1015687918829977681/1164960417093787749/IMG_3449.png");
+new LabBalancer("Nuclear", 15, 15, false, 510586, new Requirements({roboticArmTier: 2}), "j2qycv", "https://cdn.discordapp.com/attachments/1007336434916675644/1168529567036735488/IMG_3546.png");
+new LabBalancer("Nuclear", 15, 15, false, 526586, new Requirements({roboticArmTier: 3}), "3cvrqr", "https://cdn.discordapp.com/attachments/1007336434916675644/1168529666404003882/IMG_3547.png");
+new LabBalancer("Nuclear", 15, 15, false, 590586, new Requirements({roboticArmTier: 4}), "8tgb5v", "https://cdn.discordapp.com/attachments/1007336434916675644/1168529740290854962/IMG_3548.png");
